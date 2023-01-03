@@ -109,20 +109,18 @@ html {
   width: 110px;
   padding: -1rem -1rem;
 }
-.hero-sectn .left-hero p {
-  font-family: "Abel", sans-serif;
-}
 .hero-sectn .left-hero h1 {
   font-size: 2rem;
-  font-family: "Luckiest Guy", cursive;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 @media (max-width: 400px) {
   .hero-sectn .left-hero h1 {
-    width: 80%;
+    background-color: red;
+    width: 0%;
   }
 }
 .hero-sectn .left-hero p {
-  width: 90%;
+  width: 95%;
 }
 .hero-sectn .right-hero {
   width: 40%;
@@ -256,7 +254,11 @@ html {
 }
 .portfolio .top-portfoli {
   width: 100%;
-  flex-direction: column;
+}
+@media (max-width: 400px) {
+  .portfolio .top-portfoli {
+    flex-direction: column;
+  }
 }
 .portfolio .top-portfoli .left-top {
   width: 52%;
@@ -274,18 +276,17 @@ html {
 @media (max-width: 400px) {
   .portfolio .top-portfoli .right-top-pages {
     width: 100%;
-    padding: 0rem 1rem;
   }
 }
 .portfolio .top-portfoli .right-top-pages .pages {
+  background-color: #33275b;
   gap: 1rem;
-  padding: 0.2rem 0.5rem;
-  font-size: 0.8rem;
-  color: white;
-  background-color: rgb(204, 12, 101);
+  padding: 1rem 2rem;
 }
 @media (max-width: 400px) {
   .portfolio .top-portfoli .right-top-pages {
-    gap: 0.5rem;
+    gap: 0.1rem;
+    padding: 0.4rem 1.2rem;
+    font-size: 0.7rem;
   }
 }/*# sourceMappingURL=style.css.map */
