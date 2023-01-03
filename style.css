@@ -65,7 +65,7 @@ html {
 }
 @media (max-width: 400px) {
   .navBar .leftSectn {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -138,6 +138,7 @@ html {
 @media (max-width: 400px) {
   .ratings {
     width: 100%;
+    padding: 2rem 0rem;
     flex-direction: column;
   }
 }
