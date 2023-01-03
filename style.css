@@ -34,7 +34,7 @@ html {
 @media (max-width: 400px) {
   .navBar {
     width: 100%;
-    padding: 0rem;
+    padding: 0.2rem 0.2rem;
   }
 }
 .navBar .rightSectn {
@@ -288,5 +288,25 @@ html {
     gap: 0.1rem;
     padding: 0.4rem 1.2rem;
     font-size: 0.7rem;
+  }
+}
+.portfolio .bottm-portfoli {
+  flex-wrap: wrap;
+  gap: 1.4rem;
+  flex-direction: column;
+}
+@media (max-width: 400px) {
+  .portfolio .bottm-portfoli {
+    width: 100%;
+    gap: 0.3rem;
+    padding: 0;
+  }
+}
+.portfolio .bottm-portfoli img {
+  width: 32%;
+}
+@media (max-width: 400px) {
+  .portfolio .bottm-portfoli img {
+    width: 99%;
   }
 }/*# sourceMappingURL=style.css.map */
