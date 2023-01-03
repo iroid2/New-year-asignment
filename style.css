@@ -113,6 +113,11 @@ html {
   font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+@media (max-width: 400px) {
+  .hero-sectn .left-hero h1 {
+    width: 80%;
+  }
+}
 .hero-sectn .left-hero p {
   width: 90%;
 }
@@ -239,4 +244,45 @@ html {
 }
 .ratings .years .bottom-award .rate-tile {
   font-style: normal;
+}
+
+.portfolio {
+  width: 100%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio .top-portfoli {
+  width: 100%;
+  flex-direction: column;
+}
+.portfolio .top-portfoli .left-top {
+  width: 52%;
+}
+@media (max-width: 400px) {
+  .portfolio .top-portfoli .left-top {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+.portfolio .top-portfoli .right-top-pages {
+  width: 70%;
+  gap: 2rem;
+}
+@media (max-width: 400px) {
+  .portfolio .top-portfoli .right-top-pages {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+}
+.portfolio .top-portfoli .right-top-pages .pages {
+  gap: 1rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  color: white;
+  background-color: rgb(204, 12, 101);
+}
+@media (max-width: 400px) {
+  .portfolio .top-portfoli .right-top-pages {
+    gap: 0.5rem;
+  }
 }/*# sourceMappingURL=style.css.map */

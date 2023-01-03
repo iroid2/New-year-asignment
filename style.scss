@@ -98,7 +98,10 @@ html{
         h1{
             font-size: 2rem;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+            @media(max-width: 400px){
+                // background-color: red;
+                width: 80%;
+            }
         }
         p{
             width: 90%;
@@ -125,6 +128,7 @@ html{
         padding: 2rem 0rem;
         flex-direction: column;
     }
+    
     .award{
         width: 20%;
         // background-color: green;
@@ -234,6 +238,45 @@ html{
             .rate-tile{
                 font-style: normal;
             }
+        }
+    }
+}
+.portfolio{
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    .top-portfoli{
+        width: 100%;
+        flex-direction: column;
+        // background-color: red;
+        .left-top{
+            width: 52%;
+            @media(max-width: 400px){
+                width: 90%;
+                flex-direction: column;
+            }
+            // background-color: royalblue;
+        }
+        .right-top-pages{
+            width: 70%;
+            gap: 2rem;
+            @media(max-width: 400px){
+                width: 100%;
+                // background-color: yellow;
+                padding: 0rem 1rem;
+                // flex-direction: column;
+            }
+            .pages{
+                gap: 1rem;
+                padding: .2rem .5rem;
+                font-size: .8rem ;
+                color: white;
+                background-color: rgb(204, 12, 101);
+            }
+            @media(max-width: 400px){
+                gap: .5rem;
+            }
+            
         }
     }
 }
