@@ -109,9 +109,12 @@ html {
   width: 110px;
   padding: -1rem -1rem;
 }
+.hero-sectn .left-hero p {
+  font-family: "Abel", sans-serif;
+}
 .hero-sectn .left-hero h1 {
   font-size: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Luckiest Guy", cursive;
 }
 @media (max-width: 400px) {
   .hero-sectn .left-hero h1 {

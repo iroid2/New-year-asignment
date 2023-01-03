@@ -95,9 +95,12 @@ html{
             width: 110px; 
             padding: -1rem -1rem;
         }
+        p{
+            font-family: 'Abel', sans-serif;
+        }
         h1{
             font-size: 2rem;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Luckiest Guy', cursive;
             @media(max-width: 400px){
                 // background-color: red;
                 width: 80%;
