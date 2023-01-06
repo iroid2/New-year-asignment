@@ -73,13 +73,12 @@ html{
 .hero-sectn{
     width: 100%;
     gap: 7rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     @media(max-width: 400px){
         gap: 1rem;
         flex-direction: column;
     }
-        
-    
+  
     .left-hero{
         width: 40%;
         color: white;
@@ -99,12 +98,15 @@ html{
             font-size: 2rem;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             @media(max-width: 400px){
-                background-color: red;
-                width: 0%;
+                // background-color: red;
+                width: 100%;
             }
         }
         p{
-            width: 95%;
+            width: 100%;
+            @media(max-width: 400px){
+                width: 93%;
+            }
         }
     }
     .right-hero{
@@ -148,10 +150,10 @@ html{
            top: -1rem;
            left: 2rem;
            
-           svg{
-            // position: absolute;
+        //    svg{
+        //     // position: absolute;
             
-           }
+        //    }
         }
         .bottom-award{
             flex-direction: column;
@@ -185,10 +187,10 @@ html{
            position: absolute;
            top: -1rem;
            left: 2rem;
-           svg{
-            // position: absolute;
+        //    svg{
+        //     // position: absolute;
             
-           }
+        //    }
         }
         .bottom-award{
             flex-direction: column;
@@ -221,10 +223,10 @@ html{
            position: absolute;
            top: -1rem;
            left: 2rem;
-           svg{
-            // position: absolute;
+        //    svg{
+        //     // position: absolute;
             
-           }
+        //    }
         }
         .bottom-award{
             flex-direction: column;
@@ -297,6 +299,81 @@ html{
                 width: 99%;
             }
         }
-
+        .allBtn {
+            align-items: center;
+            button{
+                color: white;
+                padding: .5rem 1rem;
+                border: none;
+                border-radius: 2px ;
+                background-color: rgb(204, 12, 101);
+            }
+            }
+        }
+    .allBtn{
+        width: 100%;
+        button{
+            padding: .6rem 2rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(204, 12, 101);
+            color: white;
+        }
     }
 }
+.service{
+    width: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+    @media(max-width: 400px){
+        flex-direction: column;
+    }
+    .service-card {
+        width: 28%;
+        background-color: #433865;
+        border-radius: .5rem;
+        padding: 1rem 1rem;
+        font-weight: bold;
+        &:hover{
+            background-color:rgb(198, 81, 135) ;
+            font-weight: bold;
+            color: #19142a;
+        }
+        @media(max-width: 400px){
+            width: 90%;
+            flex-direction: column;
+        }
+        .top-ser-card{
+            background-color: rgb(204, 12, 101);
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        .mid-ser-card{
+            // background-color:red ;
+            color: white;
+            padding: 1rem 1rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            .serv-num{
+                font-size: 1.2rem;
+                font-weight: bold;
+                padding: .7rem 1rem;
+                @media(max-width: 400px){
+                    font-size: 1rem;
+                    padding: .4rem 0rem;
+                }
+            
+            }
+            .bttm-top-mid{
+                text-align: center;
+                font-size: .9rem;
+                @media(max-width: 400px){
+                    font-size: .9rem;
+                }
+
+            }
+        }
+    }
+}
+
